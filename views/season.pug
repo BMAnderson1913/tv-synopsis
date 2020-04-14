@@ -1,0 +1,20 @@
+  
+html
+  head
+    link(rel="stylesheet" href="/css/styles.css")
+  body
+    h1 Kim's Convenience
+    h2= `Season ${season.number}`
+    table
+      tr
+        th.num No.
+        th Title
+        th Director
+      for episodes in season.episodes
+        tr
+          td.num= episodes.number
+          td.title= episodes.title
+          td.director= episodes.director
+        tr
+          td.synopsis(colspan=3)= episodes.synopsis
+          
