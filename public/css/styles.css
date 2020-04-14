@@ -1,0 +1,49 @@
+.season{
+  text-align: center;
+}
+table{
+  border: 3px black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+  
+}
+th{
+  background-color: #6495ee;
+  border: 3px solid black;
+  color: white;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+ 
+}
+.num{
+  border: 3px solid black;
+  margin: 0 auto;
+  padding: 2px;
+  text-align: center;
+  width: 5%;
+
+}
+.title{
+  border: 3px solid black;
+  margin: 0 auto;
+  padding: 5px; 
+  text-align: left;
+  text-indent: 15px;
+  width: 60%;
+}
+.director{
+  border: 3px solid black;
+  margin: auto;
+  padding: 5px;
+  text-align: left;
+  text-indent: 15px;
+  width: 50%;
+
+}
+.synopsis{
+  border: 3px solid black;
+  margin: 0 auto;
+  padding: 5px;
+}
